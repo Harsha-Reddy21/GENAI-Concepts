@@ -1,0 +1,140 @@
+{
+  "GitHub Copilot": {
+    "capabilities": [
+      "Code completion",
+      "Function generation",
+      "Comment-to-code conversion",
+      "Test generation",
+      "Documentation generation"
+    ],
+    "best_practices": [
+      "Use detailed comments to guide code generation",
+      "Specify language and framework when relevant",
+      "Break complex tasks into smaller steps",
+      "Include expected input/output examples",
+      "Use function signatures to guide implementation"
+    ],
+    "limitations": [
+      "Limited context window",
+      "May generate outdated patterns",
+      "Doesn't always follow project conventions",
+      "Can struggle with complex algorithms",
+      "Limited awareness of project structure"
+    ]
+  },
+  "Cursor": {
+    "capabilities": [
+      "Code editing and refactoring",
+      "Multi-file context understanding",
+      "Conversational code assistance",
+      "Code explanation",
+      "Bug fixing"
+    ],
+    "best_practices": [
+      "Provide clear problem statements",
+      "Reference specific files and functions",
+      "Ask for step-by-step explanations",
+      "Specify desired patterns or approaches",
+      "Include error messages when debugging"
+    ],
+    "limitations": [
+      "May need guidance on project structure",
+      "Performance varies with project complexity",
+      "Can be verbose in explanations",
+      "May suggest overly complex solutions",
+      "Requires clear context for best results"
+    ]
+  },
+  "Replit": {
+    "capabilities": [
+      "Full project generation",
+      "Interactive coding assistance",
+      "Web application development",
+      "Deployment integration",
+      "Multi-language support"
+    ],
+    "best_practices": [
+      "Specify project requirements clearly",
+      "Include tech stack preferences",
+      "Define project structure expectations",
+      "Mention deployment considerations",
+      "Ask for explanations of generated code"
+    ],
+    "limitations": [
+      "May generate simplified implementations",
+      "Can struggle with complex architectures",
+      "Limited awareness of best security practices",
+      "May not optimize for performance",
+      "Sometimes generates boilerplate solutions"
+    ]
+  },
+  "Amazon CodeWhisperer": {
+    "capabilities": [
+      "Code completion",
+      "Security scanning",
+      "AWS service integration",
+      "Multi-language support",
+      "Reference tracking"
+    ],
+    "best_practices": [
+      "Include AWS service names when relevant",
+      "Be specific about security requirements",
+      "Use clear variable and function names",
+      "Provide context on surrounding code",
+      "Specify compliance requirements if applicable"
+    ],
+    "limitations": [
+      "Strongest with AWS services",
+      "May suggest AWS-specific solutions",
+      "Limited context window",
+      "Variable quality with newer frameworks",
+      "Can be overly cautious with security suggestions"
+    ]
+  },
+  "Tabnine": {
+    "capabilities": [
+      "Line and block completion",
+      "Code pattern recognition",
+      "Local code learning",
+      "Multi-language support",
+      "Private code understanding"
+    ],
+    "best_practices": [
+      "Start writing the pattern you want completed",
+      "Use consistent coding style",
+      "Provide clear function and variable names",
+      "Structure code logically",
+      "Include comments for complex logic"
+    ],
+    "limitations": [
+      "Shorter completion length",
+      "Works best with familiar patterns",
+      "Less effective for novel solutions",
+      "Limited explanation capabilities",
+      "Needs existing code context"
+    ]
+  },
+  "Codeium": {
+    "capabilities": [
+      "Code completion",
+      "Code generation from comments",
+      "Refactoring suggestions",
+      "Documentation generation",
+      "Cross-file context understanding"
+    ],
+    "best_practices": [
+      "Use descriptive comments",
+      "Break down complex requirements",
+      "Provide examples for unique patterns",
+      "Include expected behavior descriptions",
+      "Reference similar code patterns when available"
+    ],
+    "limitations": [
+      "May generate generic solutions",
+      "Variable quality across languages",
+      "Can struggle with domain-specific logic",
+      "Limited project-wide understanding",
+      "May need guidance on architectural decisions"
+    ]
+  }
+} 

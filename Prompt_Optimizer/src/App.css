@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.comparison-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .comparison-container {
+    flex-direction: row;
+  }
+}
+
+.prompt-box {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  flex: 1;
+}
+
+.explanation-box {
+  margin-top: 20px;
+  padding: 16px;
+  background-color: #f0f7ff;
+  border-radius: 4px;
+} 
