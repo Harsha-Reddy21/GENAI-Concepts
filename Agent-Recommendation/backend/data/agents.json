@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "GitHub Copilot",
+    "description": "AI pair programmer that offers code suggestions directly in your editor",
+    "strengths": ["Code completion", "Function generation", "Comment-to-code conversion"],
+    "weaknesses": ["Limited context window", "May suggest outdated patterns"],
+    "best_for": ["Individual developers", "Quick code snippets", "Boilerplate reduction"],
+    "integration": ["VS Code", "Visual Studio", "JetBrains IDEs", "Neovim"],
+    "learning_curve": "Low",
+    "cost": "Paid subscription"
+  },
+  {
+    "id": 2,
+    "name": "Cursor",
+    "description": "AI-first code editor built on top of VS Code with powerful code generation and explanation capabilities",
+    "strengths": ["Code explanation", "Bug fixing", "Refactoring", "Large context window"],
+    "weaknesses": ["Newer tool with evolving features"],
+    "best_for": ["Complex code understanding", "Refactoring tasks", "Learning unfamiliar codebases"],
+    "integration": ["Standalone editor"],
+    "learning_curve": "Medium",
+    "cost": "Free tier and paid plans"
+  },
+  {
+    "id": 3,
+    "name": "Replit Ghostwriter",
+    "description": "AI coding assistant integrated with Replit's online IDE",
+    "strengths": ["Code generation", "Debugging help", "Web-based collaboration"],
+    "weaknesses": ["Tied to Replit platform"],
+    "best_for": ["Educational projects", "Quick prototyping", "Collaborative coding"],
+    "integration": ["Replit IDE"],
+    "learning_curve": "Low",
+    "cost": "Included with Replit subscription"
+  },
+  {
+    "id": 4,
+    "name": "Amazon CodeWhisperer",
+    "description": "AI coding companion that provides code recommendations based on comments and existing code",
+    "strengths": ["Security scanning", "AWS integration", "Enterprise compliance"],
+    "weaknesses": ["More focused on AWS ecosystem"],
+    "best_for": ["AWS developers", "Enterprise applications", "Security-focused development"],
+    "integration": ["VS Code", "JetBrains IDEs", "AWS Cloud9", "Lambda console"],
+    "learning_curve": "Low",
+    "cost": "Free tier and professional tier"
+  },
+  {
+    "id": 5,
+    "name": "Tabnine",
+    "description": "AI assistant that provides code completions based on context and patterns",
+    "strengths": ["Privacy focus", "Local models option", "Multi-language support"],
+    "weaknesses": ["Shorter completions than some competitors"],
+    "best_for": ["Privacy-conscious developers", "Teams with compliance requirements"],
+    "integration": ["VS Code", "IntelliJ", "PyCharm", "WebStorm", "many others"],
+    "learning_curve": "Low",
+    "cost": "Free tier and team plans"
+  },
+  {
+    "id": 6,
+    "name": "Codeium",
+    "description": "Free AI-powered code completion tool with support for multiple languages and IDEs",
+    "strengths": ["Free for individual use", "Fast completions", "Wide language support"],
+    "weaknesses": ["Newer platform with fewer advanced features"],
+    "best_for": ["Individual developers", "Students", "Hobbyists"],
+    "integration": ["VS Code", "JetBrains IDEs", "Vim", "Emacs", "many others"],
+    "learning_curve": "Low",
+    "cost": "Free for individuals, paid for teams"
+  },
+  {
+    "id": 7,
+    "name": "Anthropic Claude Coding Assistant",
+    "description": "AI assistant specialized in understanding and generating code with strong reasoning capabilities",
+    "strengths": ["Long context window", "Code explanation", "Reasoning about complex codebases"],
+    "weaknesses": ["Limited direct IDE integration", "Requires careful prompting"],
+    "best_for": ["Code reviews", "Architecture planning", "Learning programming concepts"],
+    "integration": ["API access", "Claude web interface", "Select third-party tools"],
+    "learning_curve": "Medium",
+    "cost": "Free tier and paid subscription"
+  },
+  {
+    "id": 8,
+    "name": "Sourcegraph Cody",
+    "description": "AI coding assistant that understands your entire codebase and helps navigate and modify it",
+    "strengths": ["Repository-wide context", "Code search integration", "Multi-repository awareness"],
+    "weaknesses": ["Requires setup for each repository"],
+    "best_for": ["Large codebases", "Open source contributors", "Enterprise development teams"],
+    "integration": ["VS Code", "JetBrains IDEs", "Sourcegraph platform"],
+    "learning_curve": "Medium",
+    "cost": "Free for personal use, paid for teams"
+  },
+  {
+    "id": 9,
+    "name": "Kite",
+    "description": "AI coding assistant focused on intelligent code completions and documentation",
+    "strengths": ["Smart completions", "Function documentation", "Privacy focus"],
+    "weaknesses": ["More limited compared to newer tools"],
+    "best_for": ["Python developers", "Data scientists", "Privacy-focused developers"],
+    "integration": ["VS Code", "JetBrains IDEs", "Vim", "Atom"],
+    "learning_curve": "Low",
+    "cost": "Free and paid plans"
+  },
+  {
+    "id": 10,
+    "name": "DeepMind AlphaCode",
+    "description": "AI system designed to solve competitive programming problems",
+    "strengths": ["Solving complex algorithmic challenges", "Multiple solution generation", "Advanced reasoning"],
+    "weaknesses": ["Limited availability", "Not designed for general development"],
+    "best_for": ["Competitive programming", "Algorithm development", "Research projects"],
+    "integration": ["Research platform"],
+    "learning_curve": "High",
+    "cost": "Research access only"
+  },
+  {
+    "id": 11,
+    "name": "OpenAI Codex",
+    "description": "The AI model that powers GitHub Copilot with broad programming knowledge",
+    "strengths": ["Multi-language support", "Natural language understanding", "API access"],
+    "weaknesses": ["Rate limits on API", "Requires careful prompt engineering"],
+    "best_for": ["Custom coding tools", "Education", "Prototyping"],
+    "integration": ["API access", "Custom integrations"],
+    "learning_curve": "Medium",
+    "cost": "API usage-based pricing"
+  },
+  {
+    "id": 12,
+    "name": "CodeGeeX",
+    "description": "Open-source multilingual code generation model",
+    "strengths": ["Open source", "Multilingual support", "Self-hostable"],
+    "weaknesses": ["Requires more resources to run locally", "Less polished than commercial options"],
+    "best_for": ["Open source enthusiasts", "Research", "Custom deployments"],
+    "integration": ["VS Code extension", "Self-hosted API"],
+    "learning_curve": "High",
+    "cost": "Free (open source)"
+  }
+] 
